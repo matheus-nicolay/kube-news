@@ -71,7 +71,6 @@ kind: Service
 metadata:
   name: web
 spec:
-  replicas: 10
   selector:
     app: web
   ports: 
